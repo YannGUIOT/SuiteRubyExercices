@@ -23,11 +23,11 @@ def rollDice(step)
         else
         print "     >>  you take a step back !    "
         end
-    elsif x>1 && x<5
-        print "     >>  you don't move .......    "
-    elsif x>4
+    elsif x>=5
         print "     >>  you take a step forward ! "
         step += 1
+    else
+        print "     >>  you don't move .......    "
     end
  
 return step
